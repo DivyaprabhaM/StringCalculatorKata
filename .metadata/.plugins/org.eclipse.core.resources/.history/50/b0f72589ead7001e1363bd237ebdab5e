@@ -1,0 +1,20 @@
+package com.example.kata;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class StringCalculatorTest {
+	
+
+	@Test
+	public void testEmpty () {
+		Assertions.assertTrue(StringCalculator.addNumbers("") == 1);
+		System.out.println("came here");
+	}
+	
+	@Test
+	public void testSimpleAdd () {
+		Assertions.assertTrue(StringCalculator.addNumbers("1,2,3") == 6);
+	}
+	 
+}

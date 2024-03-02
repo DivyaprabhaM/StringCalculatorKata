@@ -1,0 +1,13 @@
+package com.example.kata;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class StringCalculatorTwoTest {
+	@Test
+	public void testSimpleAdd () {
+		Assertions.assertTrue(StringCalculator.addNumbers("1,4\n5") == 10);
+	}
+	
+
+}

@@ -1,0 +1,14 @@
+package com.example.kata;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class StringCalculatorFourTest {
+	
+	@Test
+	public void testNegative () {
+		Assertions.assertTrue(StringCalculatorThree.addNumbers("-1,2") == 3);
+		Assertions.fail
+	}
+
+}
